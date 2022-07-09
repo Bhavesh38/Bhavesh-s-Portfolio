@@ -14,7 +14,31 @@ body{
     color: aliceblue;
     font-size: 2rem;
     margin-left: 2%;
+    text-decoration: none;
 }
 .product a:hover{
     color: rgb(94, 210, 208);
+    text-decoration:underline;
+}
+
+.footer{
+    height: 50px;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+}
+
+@media screen and (max-width:870px){
+    .product h1{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width:600px){
+    .product h1{
+        margin-top: 25%;
+    }
+    .product li,a{
+        font-size: 1.5rem;
+    }
 }

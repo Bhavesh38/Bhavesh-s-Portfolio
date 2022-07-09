@@ -10,6 +10,9 @@ nav {
 nav img {
     height: 70px;
 }
+nav img:hover{
+    cursor:progress;
+}
 
 .dropdown-menu li:hover {
     background-color: aqua;
@@ -51,11 +54,12 @@ nav img {
     font-size: 1.7rem;
     text-align: center;
 }
-.pro-span{
+
+.pro-span {
     text-decoration: underline;
 }
 
-#name-tag div{
+#name-tag div {
 
     text-align: center;
     margin: 0 auto;
@@ -249,60 +253,73 @@ p {
 }
 
 
-@media screen and ((max-width:1037px) ) {
-    .profile img,h3,p{
+@media screen and ((max-width:1037px)) {
+
+    .profile img,
+    h3,
+    p {
         /* display: none; */
         text-align: center;
     }
-    .middle-container-div-1 img,p,h3{
+
+    .middle-container-div-1 img,
+    p,
+    h3 {
         text-align: center;
         float: none;
         margin: 0 auto;
         line-height: 2;
     }
 
-    .middle-container-div-2 img,p,h3{
+    .middle-container-div-2 img,
+    p,
+    h3 {
         text-align: center;
         float: none;
         margin: 0 auto;
         line-height: 2;
     }
-    
+
 }
 
 @media screen and (max-width:1000px) {
     .profile {
         margin: 0;
-        
+
         width: 100%;
     }
-    .profile img{
+
+    .profile img {
         margin-top: 2%;
     }
-    .profile p{
+
+    .profile p {
         width: 100%;
         padding: 1% 2%;
     }
 
-    .middle-container-heading{
+    .middle-container-heading {
         margin-top: 2%;
         margin-bottom: 20%;
     }
-    .middle-container-div-2{
+
+    .middle-container-div-2 {
         width: 100%;
 
         padding: 0;
         margin: 15% 0;
-        
-        
+
+
     }
-    .middle-container-div-2 h3{
+
+    .middle-container-div-2 h3 {
         width: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
     }
-    .middle-container-div-2 p{
+
+    .middle-container-div-2 p {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -310,24 +327,48 @@ p {
         text-align: center;
     }
 
-    .middle-container-div-1{
+    .middle-container-div-1 {
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    .middle-container-div-1 h3{
+
+    .middle-container-div-1 h3 {
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    .middle-container-div-1 p{
+
+    .middle-container-div-1 p {
         width: 100%;
         margin: 0;
         padding: 0;
         line-height: 2;
     }
 
-    .footer p{
+    .footer p {
         font-size: .5rem;
+    }
+}
+
+
+@media screen and (max-width:620px) {
+    .middle-container {
+        padding: 1% 1%;
+        text-align: none;
+    }
+    .middle-container h3,p{
+        text-align: center;
+    }
+    .middle-container-div-1 img{
+        float: none;
+    }
+    .middle-container-div-1 img{
+        float: none;
+    }
+
+    .bottom-container{
+        padding: 4% 1%;
+        padding-top: 0;
     }
 }
